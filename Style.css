@@ -1,0 +1,265 @@
+body {
+    background-color: #F1A661;
+    background: url(dark.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b1e1e;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+.logo {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f8f8f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #110f0f;
+}
+
+.logo-text {
+    font-style: italic;
+}
+
+li a :hover:not(.active) {
+    color: #a0a0a0;
+}
+
+.active {
+    color: #5c4242;
+}
+
+@media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+}
+
+img {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 300%;
+}
+
+.list-nav a { font-size: 20px; }
+    .list-nav li a.active { color: #353535; }
+    a:hover { color: #555555; }
+
+.content {
+  background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.content1 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+}
+
+.text1 {
+  color: #3a3a3a;
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  color: #acabab;
+  margin-top: 0;
+
+}
+
+#tag {
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+  
+}
+
+mark{
+  background: #110f0f;
+  color: rgb(237, 236, 241);
+  padding: 5px 5px;
+}
+
+h1 {
+    color: #000000;
+}
+
+.mobile {
+    color: #e4e4e4;
+    background-color: #3f3f3f;
+
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: rgb(23, 23, 24);
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: #303030;
+    color :rgb(226, 226, 226);
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background-color: #3d3d3d;
+  }
+
+  
+  .text2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer-main {
+    background-color:#160d0d00;
+    padding: 24px 60px;
+    color: white;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+
+  .section-header {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sectionn-header {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #b9b9b9;
+  }
+
+  .section {
+     color: #cccccc;
+     text-align: center;
+     width: 50%;
+  }
+
+  .ling {
+    color: #cccccc;
+     text-align: center;
+  }
+
+  .gallery {
+    position: relative;
+    display: flex;
+}
+
+  .gallery-img{
+    display: block;
+    margin : 0 auto;
+    width: 80%;
+    height: 90px;
+    border: 4px solid #000000;
+    
+  }
+
+  .galleryi-img{
+    border: 4px solid #000000;
+  }
+
+  .footer-text {
+    color: #c0c0c0;
+    text-align: center;
+    background-color: rgb(53, 53, 53)
+  }
+
+  .name {
+    text-align: center;
+    color: #1a1a1a;
+  }
+
+  .name {
+    text-align: center;
+    color: #3f3f3f;
+  }
+
+  .images {
+    width: 80%;
+    margin: 0 auto; 
+  }
+  
+  .name2{
+    color: #a0a0a0;
+  }
+
+  .kolom {
+    color: white;
+  }
+
+  .tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.project-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-project {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-project img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-project p {
+    font-family: "comic sans ms";
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #686868;
+}
